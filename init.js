@@ -81,7 +81,7 @@ var global1={
   question:{},
   itemUpload:{"isPicture":true,"media":"","index":""}
 }
-global1.apiPath="http://test.tickado.ir:8880";
+global1.apiPath="http://api.tickado.ir:8880";
 global1.questionPage={};
 global1.tmpQue={};
 
