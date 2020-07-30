@@ -6,7 +6,6 @@ var getCopy=function(data)
 function getParams(self,name){
   return  self.$route.params[name]
 }
-
 var setPageName=function(name){
   console.log('element is : ',document.getElementById('hPageName'))
   document.getElementById('hPageName').innerHTML=name
@@ -81,7 +80,7 @@ var global1={
   question:{},
   itemUpload:{"isPicture":true,"media":"","index":""}
 }
-global1.apiPath="http://api.tickado.ir:8880";
+global1.apiPath="https://api.tickado.ir:8443";
 global1.questionPage={};
 global1.tmpQue={};
 
